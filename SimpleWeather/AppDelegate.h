@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WXController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

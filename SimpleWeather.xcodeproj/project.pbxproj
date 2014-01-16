@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A85743090D548E9B535A5A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A47534BC254CA89DF39574 /* libPods.a */; };
+		9E3BED3718882BEF001AB381 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BED3618882BEF001AB381 /* WXController.m */; };
+		9E3BED3B18882F2F001AB381 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BED3A18882F2F001AB381 /* WXManager.m */; };
+		9E3BED3E18882F43001AB381 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BED3D18882F43001AB381 /* WXCondition.m */; };
+		9E3BED4118882F64001AB381 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BED4018882F64001AB381 /* WXDailyForecast.m */; };
+		9E3BED441888313B001AB381 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BED431888313B001AB381 /* WXClient.m */; };
 		9EB12627188828850072F214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB12626188828850072F214 /* Foundation.framework */; };
 		9EB12629188828850072F214 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB12628188828850072F214 /* CoreGraphics.framework */; };
 		9EB1262B188828850072F214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB1262A188828850072F214 /* UIKit.framework */; };
@@ -32,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		075B8C08A9FA4D5F96831896 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		33A47534BC254CA89DF39574 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3BED3518882BEF001AB381 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXController.h; path = controllers/WXController.h; sourceTree = "<group>"; };
+		9E3BED3618882BEF001AB381 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXController.m; path = controllers/WXController.m; sourceTree = "<group>"; };
+		9E3BED3918882F2F001AB381 /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXManager.h; path = models/WXManager.h; sourceTree = "<group>"; };
+		9E3BED3A18882F2F001AB381 /* WXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXManager.m; path = models/WXManager.m; sourceTree = "<group>"; };
+		9E3BED3C18882F43001AB381 /* WXCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXCondition.h; path = models/WXCondition.h; sourceTree = "<group>"; };
+		9E3BED3D18882F43001AB381 /* WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXCondition.m; path = models/WXCondition.m; sourceTree = "<group>"; };
+		9E3BED3F18882F64001AB381 /* WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXDailyForecast.h; path = models/WXDailyForecast.h; sourceTree = "<group>"; };
+		9E3BED4018882F64001AB381 /* WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXDailyForecast.m; path = models/WXDailyForecast.m; sourceTree = "<group>"; };
+		9E3BED421888313B001AB381 /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXClient.h; path = models/WXClient.h; sourceTree = "<group>"; };
+		9E3BED431888313B001AB381 /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXClient.m; path = models/WXClient.m; sourceTree = "<group>"; };
 		9EB12623188828850072F214 /* SimpleWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB12626188828850072F214 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EB12628188828850072F214 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +76,7 @@
 				9EB12629188828850072F214 /* CoreGraphics.framework in Frameworks */,
 				9EB1262B188828850072F214 /* UIKit.framework in Frameworks */,
 				9EB12627188828850072F214 /* Foundation.framework in Frameworks */,
+				8A85743090D548E9B535A5A7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E3BED3418882BD3001AB381 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E3BED3518882BEF001AB381 /* WXController.h */,
+				9E3BED3618882BEF001AB381 /* WXController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		9E3BED3818882F15001AB381 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9E3BED421888313B001AB381 /* WXClient.h */,
+				9E3BED431888313B001AB381 /* WXClient.m */,
+				9E3BED3F18882F64001AB381 /* WXDailyForecast.h */,
+				9E3BED4018882F64001AB381 /* WXDailyForecast.m */,
+				9E3BED3C18882F43001AB381 /* WXCondition.h */,
+				9E3BED3D18882F43001AB381 /* WXCondition.m */,
+				9E3BED3918882F2F001AB381 /* WXManager.h */,
+				9E3BED3A18882F2F001AB381 /* WXManager.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		9EB1261A188828850072F214 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,7 @@
 				9EB12645188828850072F214 /* SimpleWeatherTests */,
 				9EB12625188828850072F214 /* Frameworks */,
 				9EB12624188828850072F214 /* Products */,
+				075B8C08A9FA4D5F96831896 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +144,7 @@
 				9EB12628188828850072F214 /* CoreGraphics.framework */,
 				9EB1262A188828850072F214 /* UIKit.framework */,
 				9EB1263F188828850072F214 /* XCTest.framework */,
+				33A47534BC254CA89DF39574 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +152,8 @@
 		9EB1262C188828850072F214 /* SimpleWeather */ = {
 			isa = PBXGroup;
 			children = (
+				9E3BED3818882F15001AB381 /* models */,
+				9E3BED3418882BD3001AB381 /* controllers */,
 				9EB12635188828850072F214 /* AppDelegate.h */,
 				9EB12636188828850072F214 /* AppDelegate.m */,
 				9EB12638188828850072F214 /* Images.xcassets */,
@@ -151,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EB1264F188828850072F214 /* Build configuration list for PBXNativeTarget "SimpleWeather" */;
 			buildPhases = (
+				CCF2C0D3F0F043DFB5A93009 /* Check Pods Manifest.lock */,
 				9EB1261F188828850072F214 /* Sources */,
 				9EB12620188828850072F214 /* Frameworks */,
 				9EB12621188828850072F214 /* Resources */,
+				69EFAE36D17344C79FF3287B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,13 +283,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69EFAE36D17344C79FF3287B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF2C0D3F0F043DFB5A93009 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9EB1261F188828850072F214 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3BED441888313B001AB381 /* WXClient.m in Sources */,
+				9E3BED3B18882F2F001AB381 /* WXManager.m in Sources */,
+				9E3BED4118882F64001AB381 /* WXDailyForecast.m in Sources */,
+				9E3BED3E18882F43001AB381 /* WXCondition.m in Sources */,
 				9EB12637188828850072F214 /* AppDelegate.m in Sources */,
 				9EB12633188828850072F214 /* main.m in Sources */,
+				9E3BED3718882BEF001AB381 /* WXController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +445,7 @@
 		};
 		9EB12650188828850072F214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075B8C08A9FA4D5F96831896 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -371,6 +459,7 @@
 		};
 		9EB12651188828850072F214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075B8C08A9FA4D5F96831896 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -443,6 +532,7 @@
 				9EB12651188828850072F214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EB12652188828850072F214 /* Build configuration list for PBXNativeTarget "SimpleWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +541,7 @@
 				9EB12654188828850072F214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
